@@ -1,0 +1,2 @@
+TEMPORARY EMAIL: support@pickforme.example
+This reserved example-domain address cannot receive mail. Replace it everywhere with your real monitored support email before publication. Confirm developer name and effective date. Regenerate PDF/DOCX after editing the Markdown/source. Host index.html on a public HTTPS URL accessible without login and add that URL to Play Console. This repository does not automatically enable GitHub Pages.

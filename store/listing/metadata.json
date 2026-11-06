@@ -1,0 +1,18 @@
+{
+  "language": "en-US",
+  "app_name": "PickForMe: Random Picker",
+  "short_description": "Spin a wheel or shuffle your choices. Make everyday decisions offline.",
+  "category": "Tools",
+  "app_type": "App",
+  "pricing": "Free",
+  "contains_ads": false,
+  "in_app_purchases": false,
+  "support_email_placeholder": "support@pickforme.example",
+  "privacy_policy_url": "REPLACE_WITH_PUBLIC_HTTPS_POLICY_URL",
+  "website_optional": "",
+  "character_counts": {
+    "app_name": 24,
+    "short_description": 70,
+    "full_description": 1847
+  }
+}

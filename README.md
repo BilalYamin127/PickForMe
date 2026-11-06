@@ -85,3 +85,7 @@ The checked-in Android configuration uses Flutter's debug signing key for a **pr
 GitHub Actions runs formatting, analysis, tests and a web release build, and produces an Android preview APK artifact. iOS builds require macOS/Xcode and are not validated in the Linux development environment. Native apps work offline; the web target is for browser preview and requires its initial assets to load. No native Internet permission is requested by the release application.
 
 Local storage is device-specific and removed when application data is cleared/uninstalled. History clearing is permanent. Browser reloads of temporary picker/result routes return safely to choosing a decision.
+
+## Store publishing kit
+
+[Open the store kit](store/README.md) for the app logo, Play feature graphic, seven screenshots, editable listing and privacy policy, Data Safety guidance, and a downloadable ZIP. Replace the temporary support email before publishing.

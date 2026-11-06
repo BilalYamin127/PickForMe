@@ -1,0 +1,181 @@
+{
+  "asset_count": 44,
+  "files": {
+    "README.md": {
+      "bytes": 4629,
+      "sha256": "7190e8e5601d2fed3ec4fa7eaaf2e0fcf5770a65177c038ca236eb308a06ddea"
+    },
+    "asset-overview.jpg": {
+      "bytes": 222135,
+      "sha256": "87026d784a13c88aa2422db420284b64122d59bb3d32a5688a4b5d4beae07084"
+    },
+    "branding/app-icon-1024.png": {
+      "bytes": 706999,
+      "sha256": "b825a50bb10a87c55a8e12c947d0190edc3fc8ed9d71c6ee599e5edbc57ad738"
+    },
+    "branding/app-icon-512.png": {
+      "bytes": 208757,
+      "sha256": "b12537177db463cb108e30be1a61a44cc228231bc804d186ef220e84dcd5f741"
+    },
+    "branding/feature-graphic-1024x500.png": {
+      "bytes": 173348,
+      "sha256": "53452a9bb77f483c2b202d289e7794c925d14c649898f641a21798ef1cd8ad41"
+    },
+    "branding/wordmark-editable.svg": {
+      "bytes": 958,
+      "sha256": "8523fbee7a1c6bc629132e49d462f4dfef4f65007cf1afefe2d16329cbe913ed"
+    },
+    "listing/app-name.txt": {
+      "bytes": 25,
+      "sha256": "47d87a3dbbb89db4b24525ec57f9ed7d831a1d2b6f912449264d557d2032cbe3"
+    },
+    "listing/complete-store-listing.docx": {
+      "bytes": 38981,
+      "sha256": "24d5b5baf0d90be6cf8fe3f3b2da40cd08a17db765c819d9cc89c025ad64c0e0"
+    },
+    "listing/complete-store-listing.md": {
+      "bytes": 3303,
+      "sha256": "1d2eb9a5e457ee898d5cefd4c0adb7f51424f619ebe3fcbe31dc5695670f4515"
+    },
+    "listing/complete-store-listing.pdf": {
+      "bytes": 4982,
+      "sha256": "c2a46e12ae4dc6cde87716f4fc266771a6e60cafdebcbfaeab2d29c23b3269c4"
+    },
+    "listing/full-description.txt": {
+      "bytes": 1858,
+      "sha256": "6b3da967be0ad37813866ce8a57d5475e8c789ef8b8c950a57db2f2b1e8602be"
+    },
+    "listing/metadata.json": {
+      "bytes": 541,
+      "sha256": "134ddf9607a13750bbca9f2819ead67d727506f7c099df84481a8d3cf836a37d"
+    },
+    "listing/play-console-guide.md": {
+      "bytes": 5762,
+      "sha256": "325360e2026c08cc1d8a5ef8ced5675aa1b73df35ee5480eeb0a2ffd36252cd6"
+    },
+    "listing/release-notes.txt": {
+      "bytes": 212,
+      "sha256": "58c2e2320727946edd66e4cc2b11a29bfcca0db1e515e49cf2f32880b9db765f"
+    },
+    "listing/short-description.txt": {
+      "bytes": 71,
+      "sha256": "8ddaa4d98bbec416d1419bf398bdf20bbf7d41b3286b69ed849954e402620689"
+    },
+    "preview.html": {
+      "bytes": 3566,
+      "sha256": "d3aac11d0772db399d6181ab7dd01c6e8a5204ce43250b97cddd78ea0afab5b8"
+    },
+    "privacy-policy/EDIT-BEFORE-PUBLISHING.txt": {
+      "bytes": 437,
+      "sha256": "0fddb21e234d53bb579c4b1a41e3b0a09fdd9aa93a31f2c8aab0f17024a0f929"
+    },
+    "privacy-policy/index.html": {
+      "bytes": 5296,
+      "sha256": "434621f79ff1d298411315f2b53452820499b85672b657e683b42f41cc6437bd"
+    },
+    "privacy-policy/privacy-policy.docx": {
+      "bytes": 39037,
+      "sha256": "b1aaecabc0b3a6b8813336d812be09f06cbcd08b4e21daadbbd4b816617f2b44"
+    },
+    "privacy-policy/privacy-policy.md": {
+      "bytes": 4126,
+      "sha256": "8bf8b21a680454c32bc5fdabd219242a11d8694e365b358ef3fec89d07af6384"
+    },
+    "privacy-policy/privacy-policy.pdf": {
+      "bytes": 5236,
+      "sha256": "617bce68da59af515bae46fed216df5d61033786ac6416768fe79b6e0a65bdd0"
+    },
+    "raw-screenshots/01-home.png": {
+      "bytes": 587747,
+      "sha256": "943d3a5dd829beecf72f29749380ad1976dff0673de5bce6e5c926aa102cac73"
+    },
+    "raw-screenshots/02-create.png": {
+      "bytes": 185941,
+      "sha256": "19f1bef26b19252a6f9f06f16d0b6bbde2726579b4817b38ba0d638ebeb8b758"
+    },
+    "raw-screenshots/03-wheel.png": {
+      "bytes": 183227,
+      "sha256": "9eee0263cedf26f73f5e13267e3683f4a05bab2c212e03e214c39d6f8cd7d977"
+    },
+    "raw-screenshots/04-shuffle.png": {
+      "bytes": 135114,
+      "sha256": "43e5231e1d1ed59061a46e6fb4d6d7e7729fc71f12705af85b832ad9f487bbb2"
+    },
+    "raw-screenshots/05-result.png": {
+      "bytes": 133725,
+      "sha256": "a0b3a2081185a3485780d6782db406ba788b602cc27453cf3c7c0bdbab4ee701"
+    },
+    "raw-screenshots/06-saved-lists.png": {
+      "bytes": 198959,
+      "sha256": "3410c765bb6aa2175ae5585cc1f6ebf5edc1e84e747da202cda753cd94cdf37d"
+    },
+    "raw-screenshots/07-dark-settings.png": {
+      "bytes": 139748,
+      "sha256": "b6410a4844e108863f43508d4a4d313bde8bfe4ccfa84b3c25f10416e20910a7"
+    },
+    "screenshots/01-home-1080x1920.png": {
+      "bytes": 398403,
+      "sha256": "d28bcf9f8abc0aaf7d737cedb2e73381cb4207fc218b8272a31697d2274e594d"
+    },
+    "screenshots/02-create-1080x1920.png": {
+      "bytes": 271879,
+      "sha256": "d59f2be23b99f8cac85bce6913e4a087ebc7ff6f1b11b7eaf20bc1613773c055"
+    },
+    "screenshots/03-wheel-1080x1920.png": {
+      "bytes": 249295,
+      "sha256": "d37e41562b46acd05b5cbabd5d7398f6763fddeebe25d067b9dc809ee6f1298c"
+    },
+    "screenshots/04-shuffle-1080x1920.png": {
+      "bytes": 224929,
+      "sha256": "3ad56cccd9427a76f716f2210561c77037c5b4abd3778f15ddb683cf7dac116a"
+    },
+    "screenshots/05-result-1080x1920.png": {
+      "bytes": 193619,
+      "sha256": "6006fc5ca61b225eba2360b9b76f33c2d80ed41d519b599543c48d95ed29eac9"
+    },
+    "screenshots/06-saved-lists-1080x1920.png": {
+      "bytes": 280251,
+      "sha256": "3d0707282644eb5d264637432c26eb13fa0c6f4eb0e668285abe49d17ad5b14b"
+    },
+    "screenshots/07-dark-settings-1080x1920.png": {
+      "bytes": 227340,
+      "sha256": "c8f7c3323bda3e284a4b69ae83c7445552ad158e95206355ce6be93ac79a1ea0"
+    },
+    "source/.gitignore": {
+      "bytes": 19,
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    "source/build_documents.py": {
+      "bytes": 12274,
+      "sha256": "74edab199bb1b2a6958f27c5bb6f6ca89fd012b7522a7f879040f4b6ce13b203"
+    },
+    "source/capture_fixture.dart": {
+      "bytes": 5517,
+      "sha256": "4f83cbf41f5e0a372a83310cc2dbaa736ecbc66028d8efe934da31edc9afcce3"
+    },
+    "source/capture_screenshots.py": {
+      "bytes": 1794,
+      "sha256": "8522c36bbaf6a649791e0fca26ccac253af39ecdf1f86be43556eb24bdc55dfd"
+    },
+    "source/logo-generated-master.png": {
+      "bytes": 1282758,
+      "sha256": "706dc70f92430dc1e5fe1b41ed2dc6ea354fa93c73f39b846abb48acb2fe7396"
+    },
+    "source/package_kit.py": {
+      "bytes": 1864,
+      "sha256": "679b104d33400700ead8c9b15f8e9ff813e060bbd0e43c482e81f9fa9398f5ef"
+    },
+    "source/render_assets.py": {
+      "bytes": 6249,
+      "sha256": "34f170573862b94fe04fdf2545fdb8e6597199840b9df19a854c635f3be60db1"
+    },
+    "source/requirements.txt": {
+      "bytes": 55,
+      "sha256": "c45a05f1c215163f495a1ea6454b06e6c2f7e645576ed6093677551c90f76520"
+    },
+    "source/update_launcher_icons.py": {
+      "bytes": 1073,
+      "sha256": "6717eb68b8f1d1690f63dfe512f09e4ec1535b102cd49fa5cb5e5124adfd3481"
+    }
+  }
+}
