@@ -9,8 +9,8 @@ App type: App
 Price: Free
 Contains ads: No
 In-app purchases: No
-Support email (replace before publishing): support@pickforme.example
-Privacy policy URL: REPLACE_WITH_PUBLIC_HTTPS_POLICY_URL
+Support email: zulqarnain.tech9068@gmail.com
+Privacy policy URL: https://bilalyamin127.github.io/PickForMe/privacy-policy/
 
 ## Short description
 
@@ -64,6 +64,6 @@ Natural phrases already included in the copy: random picker, spin wheel, decisio
 06: Reusable saved lists
 07: Dark appearance and preferences
 
-## Temporary details to replace
+## Publication details
 
-Replace support@pickforme.example in every text and policy format. Confirm the public developer name against your Play Console profile. Publish the privacy-policy HTML at a public HTTPS address and insert that live URL. Recheck the listing if app features or SDKs change.
+Public support email: zulqarnain.tech9068@gmail.com. Privacy policy: https://bilalyamin127.github.io/PickForMe/privacy-policy/. Confirm the URL is live before submission. Closed-testing tester addresses are kept separately from this public listing. Recheck the policy and listing if app features or SDKs change.

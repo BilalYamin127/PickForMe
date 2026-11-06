@@ -1,0 +1,6 @@
+# Copy to android/key.properties, which is ignored by Git.
+# Use an absolute path, or a path relative to the android/ directory.
+storeFile=/absolute/private/path/to/pickforme-upload.jks
+storePassword=REPLACE_LOCALLY
+keyAlias=pickforme-upload
+keyPassword=REPLACE_LOCALLY

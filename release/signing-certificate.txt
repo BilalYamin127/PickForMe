@@ -1,0 +1,4 @@
+subject=O=PickForMe, OU=Android Publishing, CN=PickForMe Upload
+notBefore=Nov  6 21:07:27 2026 GMT
+notAfter=Mar 24 21:07:27 2054 GMT
+sha256 Fingerprint=41:4E:6A:FE:34:A6:9B:7E:27:95:FD:DD:91:0C:8A:8F:C1:2E:1E:34:AB:D3:59:16:EB:99:B9:A3:D1:E5:B1:E9

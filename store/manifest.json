@@ -2,12 +2,12 @@
   "asset_count": 44,
   "files": {
     "README.md": {
-      "bytes": 4629,
-      "sha256": "7190e8e5601d2fed3ec4fa7eaaf2e0fcf5770a65177c038ca236eb308a06ddea"
+      "bytes": 4639,
+      "sha256": "8eb7fbb282c5c0dbccaaddb8b7b828a129459cae962cffe748fb8bda5a328ac5"
     },
     "asset-overview.jpg": {
-      "bytes": 222135,
-      "sha256": "87026d784a13c88aa2422db420284b64122d59bb3d32a5688a4b5d4beae07084"
+      "bytes": 223887,
+      "sha256": "f47d53613ff1060b6505be41d1456e0629ef533d49e4725c17d926adfe57baa2"
     },
     "branding/app-icon-1024.png": {
       "bytes": 706999,
@@ -30,28 +30,28 @@
       "sha256": "47d87a3dbbb89db4b24525ec57f9ed7d831a1d2b6f912449264d557d2032cbe3"
     },
     "listing/complete-store-listing.docx": {
-      "bytes": 38981,
-      "sha256": "24d5b5baf0d90be6cf8fe3f3b2da40cd08a17db765c819d9cc89c025ad64c0e0"
+      "bytes": 38951,
+      "sha256": "0087910382a91391f88417c4a4c8765d964433c0332cf2396073ff20601ee046"
     },
     "listing/complete-store-listing.md": {
-      "bytes": 3303,
-      "sha256": "1d2eb9a5e457ee898d5cefd4c0adb7f51424f619ebe3fcbe31dc5695670f4515"
+      "bytes": 3331,
+      "sha256": "c071515b35be6cb7a1e981033ce913555f84de9ab08c3e543f5f59658775b540"
     },
     "listing/complete-store-listing.pdf": {
-      "bytes": 4982,
-      "sha256": "c2a46e12ae4dc6cde87716f4fc266771a6e60cafdebcbfaeab2d29c23b3269c4"
+      "bytes": 5018,
+      "sha256": "b894c95aac3adcd05788168f7356c450d8970e6248e8009c684cab3d21e62616"
     },
     "listing/full-description.txt": {
       "bytes": 1858,
       "sha256": "6b3da967be0ad37813866ce8a57d5475e8c789ef8b8c950a57db2f2b1e8602be"
     },
     "listing/metadata.json": {
-      "bytes": 541,
-      "sha256": "134ddf9607a13750bbca9f2819ead67d727506f7c099df84481a8d3cf836a37d"
+      "bytes": 554,
+      "sha256": "fdafb4d91eeb5a4e01f0ee4ed5d4e114723ea1b58d5517fba4eafebfbd40895b"
     },
     "listing/play-console-guide.md": {
-      "bytes": 5762,
-      "sha256": "325360e2026c08cc1d8a5ef8ced5675aa1b73df35ee5480eeb0a2ffd36252cd6"
+      "bytes": 5731,
+      "sha256": "b36b09c9861ae6edbbd10aa9bdf8151e4f5e1731af11c9985b0bd9bff5b035ff"
     },
     "listing/release-notes.txt": {
       "bytes": 212,
@@ -62,28 +62,28 @@
       "sha256": "8ddaa4d98bbec416d1419bf398bdf20bbf7d41b3286b69ed849954e402620689"
     },
     "preview.html": {
-      "bytes": 3566,
-      "sha256": "d3aac11d0772db399d6181ab7dd01c6e8a5204ce43250b97cddd78ea0afab5b8"
-    },
-    "privacy-policy/EDIT-BEFORE-PUBLISHING.txt": {
-      "bytes": 437,
-      "sha256": "0fddb21e234d53bb579c4b1a41e3b0a09fdd9aa93a31f2c8aab0f17024a0f929"
+      "bytes": 3534,
+      "sha256": "860b60039f0004c9858cb9fe187b222f2d7c58190507a39c4ccccb5703f49a11"
     },
     "privacy-policy/index.html": {
-      "bytes": 5296,
-      "sha256": "434621f79ff1d298411315f2b53452820499b85672b657e683b42f41cc6437bd"
+      "bytes": 5304,
+      "sha256": "015f7648fcbfd5973b929335e64feb52e931ecfa6a34b432ecc7ec05f3d7dfbf"
     },
     "privacy-policy/privacy-policy.docx": {
-      "bytes": 39037,
-      "sha256": "b1aaecabc0b3a6b8813336d812be09f06cbcd08b4e21daadbbd4b816617f2b44"
+      "bytes": 39040,
+      "sha256": "dc8fb4b5d78f8f863bbcdb9c76b4ed34d296be845457fc6594e002cc5bac2a2b"
     },
     "privacy-policy/privacy-policy.md": {
-      "bytes": 4126,
-      "sha256": "8bf8b21a680454c32bc5fdabd219242a11d8694e365b358ef3fec89d07af6384"
+      "bytes": 4134,
+      "sha256": "1669842ec76e8ea26f1dca5a586c8089afa6f48988dd6089d8a0c56017352b28"
     },
     "privacy-policy/privacy-policy.pdf": {
-      "bytes": 5236,
-      "sha256": "617bce68da59af515bae46fed216df5d61033786ac6416768fe79b6e0a65bdd0"
+      "bytes": 5257,
+      "sha256": "2b0995e14dc60fe7141b2d4b309aa6ac8ddc4955430012c47c6a9b679eaa22f9"
+    },
+    "privacy-policy/publication-notes.txt": {
+      "bytes": 270,
+      "sha256": "ac90f1865ac01c553390ad5ba314bed91dc30081fb90f1051192f4768f52e780"
     },
     "raw-screenshots/01-home.png": {
       "bytes": 587747,
@@ -110,8 +110,8 @@
       "sha256": "3410c765bb6aa2175ae5585cc1f6ebf5edc1e84e747da202cda753cd94cdf37d"
     },
     "raw-screenshots/07-dark-settings.png": {
-      "bytes": 139748,
-      "sha256": "b6410a4844e108863f43508d4a4d313bde8bfe4ccfa84b3c25f10416e20910a7"
+      "bytes": 163464,
+      "sha256": "2a94ca8125474857bb9e82d129b20f86bf094fcf4987c5d0608e17560f7c57d9"
     },
     "screenshots/01-home-1080x1920.png": {
       "bytes": 398403,
@@ -138,16 +138,16 @@
       "sha256": "3d0707282644eb5d264637432c26eb13fa0c6f4eb0e668285abe49d17ad5b14b"
     },
     "screenshots/07-dark-settings-1080x1920.png": {
-      "bytes": 227340,
-      "sha256": "c8f7c3323bda3e284a4b69ae83c7445552ad158e95206355ce6be93ac79a1ea0"
+      "bytes": 252985,
+      "sha256": "afac01541eecbd27e974428a7e3d8aa42acc678f2034f7518c168e54d475d833"
     },
     "source/.gitignore": {
       "bytes": 19,
       "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
     },
     "source/build_documents.py": {
-      "bytes": 12274,
-      "sha256": "74edab199bb1b2a6958f27c5bb6f6ca89fd012b7522a7f879040f4b6ce13b203"
+      "bytes": 12240,
+      "sha256": "08bb773b8f530d68fd6f3c90be6d6b73417074b464aa98c0747567db6ea54279"
     },
     "source/capture_fixture.dart": {
       "bytes": 5517,

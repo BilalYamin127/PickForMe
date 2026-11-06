@@ -10,10 +10,10 @@ Prepared for the current native PickForMe app, version 1.0.0. This is an upload 
 - Full description: use `full-description.txt` (4,000-character maximum).
 - App type: App. Suggested category: Tools.
 - Price: Free. Current version has no ads or in-app purchases.
-- Support email: replace `support@pickforme.example` with a working monitored address. The example address cannot receive email.
+- Support email: `zulqarnain.tech9068@gmail.com` (approved for public display).
 - Developer display name: confirm against your own Play Console profile. The policy currently identifies Bilal Yamin.
 - Website: optional; leave blank unless you have a real public website.
-- Privacy policy: host `../privacy-policy/index.html` at a public HTTPS URL accessible without login. Put that live URL into the Console. A GitHub file-view URL, Word document or PDF download is not a substitute for a public privacy-policy webpage.
+- Privacy policy: https://bilalyamin127.github.io/PickForMe/privacy-policy/ — verify that this public page loads before submission. A GitHub file-view URL, Word document or PDF download is not a substitute for a public privacy-policy webpage.
 
 ## Upload-ready images
 
@@ -55,14 +55,14 @@ Google Play definitions and questionnaire wording can change. The developer must
 
 ## Release preparation
 
-1. Replace temporary contact details and confirm developer name/policy date.
-2. Publish the privacy-policy HTML and verify its URL from another device.
+1. Confirm the public support email, developer name and policy date.
+2. Verify the public policy URL from another device and check Settings → Privacy policy offline.
 3. Configure your private Android upload keystore; never commit it or its passwords.
-4. Build a signed release AAB (`flutter build appbundle --release`). The existing default debug-signed configuration is for previews and must be replaced before Play distribution.
+4. Build a signed release AAB (`flutter build appbundle --release`). Release bundles now require upload-key credentials. CI preview APKs opt in to debug signing explicitly; they must not be submitted to Play.
 5. Test the final signed build on physical Android devices, including offline use, wheel landing, list selection, sharing and persistence.
 6. Upload to an internal testing track, finish Console declarations and review the actual device screenshots.
 7. Check current target SDK, testing and account verification requirements shown by Play Console, then submit for review when ready.
 
 ## Privacy policy hosting
 
-The policy HTML is standalone and works on ordinary static hosting. If you prefer GitHub Pages, choose a valid Pages source in repository Settings and copy the policy to that source, or add a Pages deployment workflow. Pages has not been enabled or published by this asset task. Keep the hosted page in sync with the editable policy source after replacing the email.
+The standalone public policy is maintained at `docs/privacy-policy/index.html`. GitHub Pages can publish the `main` branch’s `/docs` folder. The same content is bundled at `assets/legal/privacy-policy.md`; `store/source/build_documents.py` synchronizes those copies. Check the live Pages deployment before entering the URL into Play Console.

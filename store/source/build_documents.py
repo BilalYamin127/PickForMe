@@ -6,7 +6,8 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.colors import HexColor
 ROOT=Path(__file__).resolve().parents[1]
-MAIL='support@pickforme.example'
+MAIL='zulqarnain.tech9068@gmail.com'
+POLICY_URL='https://bilalyamin127.github.io/PickForMe/privacy-policy/'
 NAME='PickForMe: Random Picker'
 SHORT='Spin a wheel or shuffle your choices. Make everyday decisions offline.'
 FULL='''Too many choices? Give chance a turn.
@@ -38,10 +39,10 @@ PickForMe is designed for everyday choices and entertainment. Use your judgment 
 assert len(NAME)<=30 and len(SHORT)<=80 and len(FULL)<=4000
 for filename,text in [('app-name.txt',NAME),('short-description.txt',SHORT),('full-description.txt',FULL),('release-notes.txt','Meet PickForMe! Spin a colorful wheel or shuffle your choices, save reusable lists, revisit recent results, and share your pick. Includes offline storage, light and dark themes, and optional sound and vibration.')]:
  (ROOT/'listing'/filename).write_text(text+'\n')
-metadata={"language":"en-US","app_name":NAME,"short_description":SHORT,"category":"Tools","app_type":"App","pricing":"Free","contains_ads":False,"in_app_purchases":False,"support_email_placeholder":MAIL,"privacy_policy_url":"REPLACE_WITH_PUBLIC_HTTPS_POLICY_URL","website_optional":"","character_counts":{"app_name":len(NAME),"short_description":len(SHORT),"full_description":len(FULL)}}
+metadata={"language":"en-US","app_name":NAME,"short_description":SHORT,"category":"Tools","app_type":"App","pricing":"Free","contains_ads":False,"in_app_purchases":False,"support_email":MAIL,"privacy_policy_url":POLICY_URL,"website_optional":"","character_counts":{"app_name":len(NAME),"short_description":len(SHORT),"full_description":len(FULL)}}
 (ROOT/'listing'/'metadata.json').write_text(json.dumps(metadata,indent=2)+'\n')
 POLICY=[
-('Privacy Policy for PickForMe','Last updated: 6 November 2026\nDeveloper: Bilal Yamin\nContact: '+MAIL),
+('Privacy Policy for PickForMe','Last updated: 7 November 2026\nDeveloper: Bilal Yamin\nContact: '+MAIL),
 ('1. About this policy','PickForMe – Random Decision Maker is an offline application for everyday random choices. This policy explains how the current version handles information when you use its wheel, list picker, saved lists, history, settings and sharing feature.'),
 ('2. Information stored on your device','The app stores the decision titles and options you enter, saved-list identifiers and timestamps, selected results and their timestamps and selection modes, and preferences such as theme, sound and vibration. This information is stored locally using Hive CE. No account or authentication is required.'),
 ('3. Information we collect','The current app does not send your decision lists, results or preferences to the developer. It has no developer-operated backend, advertising SDK, analytics service, tracking technology or in-app purchase system. We do not collect device identifiers or location through the app. The app does not request access to your contacts, camera, microphone, photos or precise location.'),
@@ -56,11 +57,17 @@ POLICY=[
 ]
 md='# '+POLICY[0][0]+'\n\n'+POLICY[0][1]+'\n\n'+'\n\n'.join('## '+h+'\n\n'+b for h,b in POLICY[1:])+'\n'
 (ROOT/'privacy-policy'/'privacy-policy.md').write_text(md)
-# A separate handoff notice keeps publishing instructions out of the public policy.
-(ROOT/'privacy-policy'/'EDIT-BEFORE-PUBLISHING.txt').write_text('TEMPORARY EMAIL: '+MAIL+'\nThis reserved example-domain address cannot receive mail. Replace it everywhere with your real monitored support email before publication. Confirm developer name and effective date. Regenerate PDF/DOCX after editing the Markdown/source. Host index.html on a public HTTPS URL accessible without login and add that URL to Play Console. This repository does not automatically enable GitHub Pages.\n')
+legal=ROOT.parent/'assets'/'legal'
+legal.mkdir(parents=True,exist_ok=True)
+(legal/'privacy-policy.md').write_text(md)
+(ROOT/'privacy-policy'/'publication-notes.txt').write_text('Public support email: '+MAIL+'\nPrivacy policy URL: '+POLICY_URL+'\nKeep the hosted page and in-app bundled policy synchronized when updating data practices. Confirm the live URL before submitting a release.\n')
 body=''.join('<section><h2>'+html.escape(h)+'</h2><p>'+html.escape(b).replace('\n','<br>')+'</p></section>' for h,b in POLICY[1:])
 page='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PickForMe Privacy Policy</title><meta name="description" content="How PickForMe handles locally stored decisions and optional result sharing."><style>:root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#faf8ff;color:#282136;font:16px/1.75 system-ui,sans-serif}main{max-width:820px;margin:auto;padding:60px 24px 80px}.brand{color:#7653cf;font-weight:800;letter-spacing:1px}h1{font-size:clamp(32px,6vw,48px);line-height:1.15;letter-spacing:-1.5px}h2{font-size:21px;line-height:1.35;margin:32px 0 10px}p{margin:0 0 16px}.meta{color:#625770;padding-bottom:24px;border-bottom:1px solid #e4ddef}a{color:#6542bb}</style></head><body><main><div class="brand">✳ PickForMe</div><h1>Privacy Policy</h1><p class="meta">'''+html.escape(POLICY[0][1]).replace('\n','<br>')+'</p>'+body+'</main></body></html>'
 (ROOT/'privacy-policy'/'index.html').write_text(page)
+public_policy=ROOT.parent/'docs'/'privacy-policy'
+public_policy.mkdir(parents=True,exist_ok=True)
+(public_policy/'index.html').write_text(page)
+(ROOT.parent/'docs'/'.nojekyll').touch()
 # Rich editable documents and PDFs, all from the same source.
 def export(title,sections,folder,stem):
  d=Document();d.sections[0].header.paragraphs[0].text='PICKFORME  /  PUBLISHING KIT'
@@ -81,6 +88,6 @@ def export(title,sections,folder,stem):
  def footer(c,doc):c.setFont('Helvetica',8);c.setFillColor(HexColor('#756b80'));c.drawString(46,28,'PickForMe | Publishing kit');c.drawRightString(548,28,str(doc.page))
  SimpleDocTemplate(str(folder/(stem+'.pdf')),title='PickForMe — '+title,author='Bilal Yamin',subject='PickForMe publishing assets',pagesize=(595.28,841.89),leftMargin=46,rightMargin=46,topMargin=48,bottomMargin=48).build(story,onFirstPage=footer,onLaterPages=footer)
 export('Privacy Policy',POLICY,ROOT/'privacy-policy','privacy-policy')
-LISTING=[('Store details',f'App name: {NAME}\nDefault language: English (United States)\nApp category: Tools\nApp type: App\nPrice: Free\nContains ads: No\nIn-app purchases: No\nSupport email (replace before publishing): {MAIL}\nPrivacy policy URL: REPLACE_WITH_PUBLIC_HTTPS_POLICY_URL'),('Short description',SHORT),('Full description',FULL),('Release notes',(ROOT/'listing'/'release-notes.txt').read_text()),('Suggested search language','Natural phrases already included in the copy: random picker, spin wheel, decision maker, shuffle list, offline choices. Google Play has no separate keyword field. Avoid repeating keywords or adding ranking claims.'),('Asset upload order','01: Home / everyday decisions\n02: Create and reorder choices\n03: Spin wheel\n04: Shuffle list\n05: Result and sharing\n06: Reusable saved lists\n07: Dark appearance and preferences'),('Temporary details to replace',f'Replace {MAIL} in every text and policy format. Confirm the public developer name against your Play Console profile. Publish the privacy-policy HTML at a public HTTPS address and insert that live URL. Recheck the listing if app features or SDKs change.')]
+LISTING=[('Store details',f'App name: {NAME}\nDefault language: English (United States)\nApp category: Tools\nApp type: App\nPrice: Free\nContains ads: No\nIn-app purchases: No\nSupport email: {MAIL}\nPrivacy policy URL: {POLICY_URL}'),('Short description',SHORT),('Full description',FULL),('Release notes',(ROOT/'listing'/'release-notes.txt').read_text()),('Suggested search language','Natural phrases already included in the copy: random picker, spin wheel, decision maker, shuffle list, offline choices. Google Play has no separate keyword field. Avoid repeating keywords or adding ranking claims.'),('Asset upload order','01: Home / everyday decisions\n02: Create and reorder choices\n03: Spin wheel\n04: Shuffle list\n05: Result and sharing\n06: Reusable saved lists\n07: Dark appearance and preferences'),('Publication details',f'Public support email: {MAIL}. Privacy policy: {POLICY_URL}. Confirm the URL is live before submission. Closed-testing tester addresses are kept separately from this public listing. Recheck the policy and listing if app features or SDKs change.')]
 (ROOT/'listing'/'complete-store-listing.md').write_text('# PickForMe — Complete Store Listing\n\n'+'\n\n'.join('## '+h+'\n\n'+b for h,b in LISTING)+'\n')
 export('Complete Store Listing',LISTING,ROOT/'listing','complete-store-listing')

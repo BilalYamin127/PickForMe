@@ -1,8 +1,8 @@
 # Privacy Policy for PickForMe
 
-Last updated: 6 November 2026
+Last updated: 7 November 2026
 Developer: Bilal Yamin
-Contact: support@pickforme.example
+Contact: zulqarnain.tech9068@gmail.com
 
 ## 1. About this policy
 
@@ -42,7 +42,7 @@ PickForMe is a general-purpose decision tool and does not intentionally collect 
 
 ## 10. Contacting us
 
-If you email support, your email provider and ours will process the address and information you choose to send. We use that information to respond to your request and do not use it for advertising. Do not include sensitive information in support messages. For privacy questions, contact Bilal Yamin at support@pickforme.example.
+If you email support, your email provider and ours will process the address and information you choose to send. We use that information to respond to your request and do not use it for advertising. Do not include sensitive information in support messages. For privacy questions, contact Bilal Yamin at zulqarnain.tech9068@gmail.com.
 
 ## 11. Changes to this policy
 

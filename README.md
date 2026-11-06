@@ -80,12 +80,10 @@ flutter build appbundle --release
 flutter build ipa --release
 ```
 
-The checked-in Android configuration uses Flutter's debug signing key for a **preview APK**. Before Play Store distribution, configure a private release keystore/signing config (keep credentials out of Git), then build an AAB. Set the iOS signing team and provisioning in Xcode before producing a signed IPA. Application ID: `com.bilalyamin.pick_for_me`.
-
-GitHub Actions runs formatting, analysis, tests and a web release build, and produces an Android preview APK artifact. iOS builds require macOS/Xcode and are not validated in the Linux development environment. Native apps work offline; the web target is for browser preview and requires its initial assets to load. No native Internet permission is requested by the release application.
+Release App Bundles require private upload-key credentials; see [release preparation](release/README.md) and `android/key.properties.example`. The Android application ID is `com.bilalyamin.pick_for_me`. The regular CI preview APK job explicitly opts into debug signing and is not for Play submission. A manual signed-AAB workflow supports private repository secrets. iOS distribution still requires macOS/Xcode, an Apple signing team and provisioning.
 
 Local storage is device-specific and removed when application data is cleared/uninstalled. History clearing is permanent. Browser reloads of temporary picker/result routes return safely to choosing a decision.
 
 ## Store publishing kit
 
-[Open the store kit](store/README.md) for the app logo, Play feature graphic, seven screenshots, editable listing and privacy policy, Data Safety guidance, and a downloadable ZIP. Replace the temporary support email before publishing.
+[Open the store kit](store/README.md) for the app logo, Play feature graphic, seven screenshots, editable listing and privacy policy, Data Safety guidance, and a downloadable ZIP. The approved public support email and offline in-app privacy policy are included.

@@ -8,6 +8,7 @@ import '../features/decisions/views/picker_view.dart';
 import '../features/decisions/views/result_view.dart';
 import '../features/library/views/library_view.dart';
 import '../features/settings/views/settings_view.dart';
+import '../features/settings/views/privacy_policy_view.dart';
 
 final appRouter = GoRouter(
   routes: [
@@ -36,6 +37,7 @@ final appRouter = GoRouter(
       builder: (_, _) => const LibraryView(history: true),
     ),
     GoRoute(path: '/settings', builder: (_, _) => const SettingsView()),
+    GoRoute(path: '/privacy', builder: (_, _) => const PrivacyPolicyView()),
   ],
 );
 

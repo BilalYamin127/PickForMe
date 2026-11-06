@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../decisions/view_models/app_view_model.dart';
 import '../../../shared/widgets/page_frame.dart';
@@ -73,6 +74,14 @@ class SettingsView extends ConsumerWidget {
                 onTap: () async {
                   if (await confirmClear(context)) await vm.clearHistory();
                 },
+              ),
+              ListTile(
+                leading: const Icon(Icons.privacy_tip_outlined),
+                title: const Text('Privacy policy'),
+                subtitle: const Text(
+                  'How your information stays on your device',
+                ),
+                onTap: () => context.push('/privacy'),
               ),
               const SizedBox(height: 40),
               const Text(

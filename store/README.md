@@ -29,9 +29,13 @@ Everything for reviewing and preparing the Google Play listing from another devi
 | Policy webpage to host | [privacy-policy/index.html](privacy-policy/index.html) |
 | Data Safety and upload guidance | [listing/play-console-guide.md](listing/play-console-guide.md) |
 
-## Replace before publishing
+## Publication details
 
-**Temporary email: `support@pickforme.example`.** This reserved example-domain address cannot receive mail. Replace it in the policy, listing, metadata and generator source, then regenerate Word/PDF files. Confirm the developer identity and policy date. Publish the HTML policy at a public HTTPS URL and enter that URL in Play Console. This task supplies files; it does not submit the app or enable policy hosting.
+**Public support email:** `zulqarnain.tech9068@gmail.com`.
+
+**Privacy policy:** https://bilalyamin127.github.io/PickForMe/privacy-policy/
+
+The policy is also bundled inside the app under Settings → Privacy policy. Keep the app asset, hosted page and editable documents synchronized after policy changes. Play Console submission and closed-testing rollout are tracked separately; asset preparation does not itself submit the app.
 
 ## Screenshot order
 
