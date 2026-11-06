@@ -39,7 +39,7 @@ PickForMe is designed for everyday choices and entertainment. Use your judgment 
 assert len(NAME)<=30 and len(SHORT)<=80 and len(FULL)<=4000
 for filename,text in [('app-name.txt',NAME),('short-description.txt',SHORT),('full-description.txt',FULL),('release-notes.txt','Meet PickForMe! Spin a colorful wheel or shuffle your choices, save reusable lists, revisit recent results, and share your pick. Includes offline storage, light and dark themes, and optional sound and vibration.')]:
  (ROOT/'listing'/filename).write_text(text+'\n')
-metadata={"language":"en-US","app_name":NAME,"short_description":SHORT,"category":"Tools","app_type":"App","pricing":"Free","contains_ads":False,"in_app_purchases":False,"support_email":MAIL,"privacy_policy_url":POLICY_URL,"website_optional":"","character_counts":{"app_name":len(NAME),"short_description":len(SHORT),"full_description":len(FULL)}}
+metadata={"language":"en-US","app_name":NAME,"short_description":SHORT,"category":"Tools","app_type":"App","pricing":"Free","contains_ads":False,"in_app_purchases":False,"support_email":MAIL,"privacy_policy_url":POLICY_URL,"privacy_policy_hosting_status":"requires GitHub Pages activation","website_optional":"","character_counts":{"app_name":len(NAME),"short_description":len(SHORT),"full_description":len(FULL)}}
 (ROOT/'listing'/'metadata.json').write_text(json.dumps(metadata,indent=2)+'\n')
 POLICY=[
 ('Privacy Policy for PickForMe','Last updated: 7 November 2026\nDeveloper: Bilal Yamin\nContact: '+MAIL),

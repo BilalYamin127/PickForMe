@@ -5,6 +5,8 @@ Initial release: **1.0.0**, version code **1**. Increase the version code for ev
 Public support email: **zulqarnain.tech9068@gmail.com**.
 Privacy policy: https://bilalyamin127.github.io/PickForMe/privacy-policy/
 
+For the Mac handoff, start with [BUILD-ON-MAC.md](BUILD-ON-MAC.md). Public SHA-1/SHA-256 values are in [SHA-FINGERPRINTS.txt](SHA-FINGERPRINTS.txt). The private upload key is not stored in GitHub.
+
 ## Build signing
 
 Play bundles now require an upload key; there is no debug-signing fallback for `bundleRelease`. Copy `android/key.properties.example` to the ignored `android/key.properties` and set your private credentials, or supply these environment variables:

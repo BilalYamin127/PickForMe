@@ -1,0 +1,10 @@
+PickForMe Android upload certificate
+Application ID: com.bilalyamin.pick_for_me
+Key alias: pickforme-upload
+Certificate identity: bilal <bilal@appstree.io>
+RSA key size: 4096 bits
+
+sha1 Fingerprint=3C:AE:0F:41:E4:13:E7:18:0C:68:F9:C7:F8:8B:35:83:9D:C2:72:9A
+sha256 Fingerprint=F1:97:38:EA:C2:01:13:F6:58:60:F0:0A:AC:3C:7F:88:BF:7D:F6:23:D2:E4:31:5E:2B:FD:A6:87:94:D1:FB:A9
+
+These fingerprints identify the upload key. Google Play App Signing uses a separate certificate to sign the APKs delivered to testers.

@@ -33,7 +33,9 @@ Everything for reviewing and preparing the Google Play listing from another devi
 
 **Public support email:** `zulqarnain.tech9068@gmail.com`.
 
-**Privacy policy:** https://bilalyamin127.github.io/PickForMe/privacy-policy/
+**Privacy policy URL (pending activation):** https://bilalyamin127.github.io/PickForMe/privacy-policy/
+
+GitHub Pages activation was blocked by the integration’s permissions. Enable **Settings → Pages → main → /docs** before using that URL in Play Console.
 
 The policy is also bundled inside the app under Settings → Privacy policy. Keep the app asset, hosted page and editable documents synchronized after policy changes. Play Console submission and closed-testing rollout are tracked separately; asset preparation does not itself submit the app.
 

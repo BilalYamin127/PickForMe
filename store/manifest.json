@@ -2,8 +2,8 @@
   "asset_count": 44,
   "files": {
     "README.md": {
-      "bytes": 4639,
-      "sha256": "8eb7fbb282c5c0dbccaaddb8b7b828a129459cae962cffe748fb8bda5a328ac5"
+      "bytes": 4825,
+      "sha256": "37a080ebb17c584323669ca8ed4c372bb8acc2f8084b0469fd788a7db5f4ac4c"
     },
     "asset-overview.jpg": {
       "bytes": 223887,
@@ -31,7 +31,7 @@
     },
     "listing/complete-store-listing.docx": {
       "bytes": 38951,
-      "sha256": "0087910382a91391f88417c4a4c8765d964433c0332cf2396073ff20601ee046"
+      "sha256": "1ff120b2e98914c09275da96e8701d0f380cacf49fee5505f1fee49c321efe29"
     },
     "listing/complete-store-listing.md": {
       "bytes": 3331,
@@ -39,15 +39,15 @@
     },
     "listing/complete-store-listing.pdf": {
       "bytes": 5018,
-      "sha256": "b894c95aac3adcd05788168f7356c450d8970e6248e8009c684cab3d21e62616"
+      "sha256": "ca7bee5d8ce7485e2d63968a8a697ad2280cac0b2b553dadf8077666b59739c4"
     },
     "listing/full-description.txt": {
       "bytes": 1858,
       "sha256": "6b3da967be0ad37813866ce8a57d5475e8c789ef8b8c950a57db2f2b1e8602be"
     },
     "listing/metadata.json": {
-      "bytes": 554,
-      "sha256": "fdafb4d91eeb5a4e01f0ee4ed5d4e114723ea1b58d5517fba4eafebfbd40895b"
+      "bytes": 625,
+      "sha256": "bb425edead428e2a9255b57d7dfe706e51547094574032581551509fdd6ca7dc"
     },
     "listing/play-console-guide.md": {
       "bytes": 5731,
@@ -71,7 +71,7 @@
     },
     "privacy-policy/privacy-policy.docx": {
       "bytes": 39040,
-      "sha256": "dc8fb4b5d78f8f863bbcdb9c76b4ed34d296be845457fc6594e002cc5bac2a2b"
+      "sha256": "24e0260b2bf02a1dbfe63fbdb0d72d7f161d50aa21e9b498d3a1d61509d989a7"
     },
     "privacy-policy/privacy-policy.md": {
       "bytes": 4134,
@@ -79,7 +79,7 @@
     },
     "privacy-policy/privacy-policy.pdf": {
       "bytes": 5257,
-      "sha256": "2b0995e14dc60fe7141b2d4b309aa6ac8ddc4955430012c47c6a9b679eaa22f9"
+      "sha256": "2ea9abddabc0730dedc9771bd55430fe359ac49b67fbf6cb0b061c9ac375819f"
     },
     "privacy-policy/publication-notes.txt": {
       "bytes": 270,
@@ -146,8 +146,8 @@
       "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
     },
     "source/build_documents.py": {
-      "bytes": 12240,
-      "sha256": "08bb773b8f530d68fd6f3c90be6d6b73417074b464aa98c0747567db6ea54279"
+      "bytes": 12307,
+      "sha256": "02118d09e5df9a8cba0e754d62ae425e3147de7a74151ac79b713061990586a5"
     },
     "source/capture_fixture.dart": {
       "bytes": 5517,
